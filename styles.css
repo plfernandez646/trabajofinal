@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+P {
+    margin-left: 20px;
+}
+
+h4{
+    color: aliceblue;
+    margin: auto;
+    margin: 40px auto;
+    font-size: 20px;
+    font-family: verdana;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+#parte1 {
+    border: aliceblue solid 4px;
+    background-color: #3F4E5F;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+}
+
+#h1CV {
+    color: aliceblue;
+    margin: auto;
+    margin: 10px auto;
+    font-size: 30px;
+    font-family: verdana;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#foto {
+    background-image: url("..imagenes/cosme-200x200.png");
+    border-radius: 0%;
+    border: 3px solid #66CDAA;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+
+#nombre {
+    color: aliceblue;
+    margin: auto;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#titulos_seccion {
+    color: aliceblue;
+    margin: auto;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#boton1 {
+    font-size: 10px;
+    text-align: center;
+    padding: 2px;
+    margin: 2px 2px;
+    width: 70px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+
+
+#boton2 {
+    font-size: 10px;
+    text-align: center;
+    padding: 2px;
+    margin: 2px 2px;
+    width: 70px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+#boton3 {
+    font-size: 10px;
+    text-align: center;
+    padding: 2px;
+    margin: 2px 2px;
+    width: 70px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+#boton4 {
+    font-size: 10px;
+    text-align: center;
+    padding: 2px;
+    margin: 2px 2px;
+    width: 70px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+.btn button:hover {
+    color: rgb(255, 166, 0);
+    border: rgb(102, 205, 170) 3px solid;
+}
+
+#botones {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+#home {
+    height: 100vb;
+    background-color: rgb(102, 205, 170);
+    font-size: 15px;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: block;
+}
+
+#datos_personales {
+    height: 100vb;
+    background-color: rgb(102, 205, 170);
+    font-size: 15px;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: none;
+}
+
+
+#estudios_cursados {
+    height: 100vb;
+    background-color: rgb(102, 205, 170);
+    font-size: 15px;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: none;
+}
+
+#referencias_laborales {
+    height: 100vb;
+    background-color: rgb(102, 205, 170);
+    font-size: 15px;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: none;
+}
+
+
+
+@media screen and (min-width: 894px) {
+
+    #parte1 {
+        border: aliceblue solid 4px;
+        background-color: #3F4E5F;
+        display: grid;
+        grid-template-columns: 300px 3fr;
+        grid-template-rows: 70px 200px 60px 60px 1fr ;
+    }
+
+    #h1CV {
+        text-align: center;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #foto {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #nombre {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #titulos_seccion {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    #boton1,
+    #boton2,
+    #boton3,
+    #boton4{
+        margin: 15% auto;
+        font-size: 18px;
+        width: 120px;
+        height: 60px;
+    }
+
+
+
+    #botones {
+        margin-top: 0%;
+        flex-direction: column;
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .btn button:hover {
+        color: rgb(255, 166, 0);
+        border: rgb(102, 205, 170) 5px solid
+    }
+
+
+
+    #home,
+    #datos_personales,
+    #estudios_cursados,
+    #referencias_laborales {
+        border-radius: 30px;
+        margin: 30px 30px;
+        grid-column: 2/3;
+        grid-row: 1/6;
+    }
+
+p{
+    margin: 15%;;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+}
